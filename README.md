@@ -25,7 +25,7 @@ SNA-WS-2024/
 │   ├── node2vec.ipynb
 │   └── similarity_based.ipynb                  # Data used as a test set
 │
-├── parameter_results.csv                       # ??
+├── parameter_results.csv                       # Results from node2dec hyperparameter tuning
 ├── README.md                                   # Project description, setup
 ├── requirements.txt                            # Python dependencies
 └── .gitignore                                  # Ignore unnecessary files (e.g., parts of 'data' folder)
