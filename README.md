@@ -12,7 +12,7 @@ Approaches applied:
 ### Repository structure:
 
 ```bash
-ADL-WS-2024/
+SNA-WS-2024/
 │
 ├── archive/                                    # Folder with archived scripts
 │
@@ -48,10 +48,10 @@ pip install -r requirements.txt
 model = torch.load('full_graphsage_model.pth')
 model.eval()
  ````
-NEED TO FINISH THAT 
- Example of using the model for the inference: 
+
+Example of using the model's parameters': 
  ````bash
- 
+ model.load_state_dict(torch.load('graphsage_model.pth'))
  ````
 
  #### 2. Node2Vec
@@ -60,7 +60,4 @@ NEED TO FINISH THAT
 with open("node2vec_final.pkl", "rb") as f:
     model_loaded = pickle.load(f)
  ````
-
-
- #### 3. Similarity-based
  
