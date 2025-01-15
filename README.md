@@ -55,6 +55,11 @@ NEED TO FINISH THAT
  ````
 
  #### 2. Node2Vec
+ ````bash
+ # Loading the node2vec model 
+with open("node2vec_final.pkl", "rb") as f:
+    model_loaded = pickle.load(f)
+ ````
 
 
  #### 3. Similarity-based
